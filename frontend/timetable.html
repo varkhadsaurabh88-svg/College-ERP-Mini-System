@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable - College ERP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-layout">
+
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <div class="logo-icon">🎓</div>
+            <span>College ERP</span>
+        </div>
+
+        <ul class="sidebar-menu">
+            <li><a href="dashboard.html">📊 <span>Dashboard</span></a></li>
+            <li><a href="profile.html">👤 <span>Profile</span></a></li>
+            <li><a href="students.html">👨‍🎓 <span>Students</span></a></li>
+            <li><a href="attendance.html">📅 <span>Attendance</span></a></li>
+            <li><a href="marks.html">📝 <span>Marks</span></a></li>
+            <li><a href="timetable.html" class="active">🕒 <span>Timetable</span></a></li>
+            <li><a href="notices.html">📢 <span>Notices</span></a></li>
+            <li><a href="faculty.html">👨‍🏫 <span>Faculty</span></a></li>
+            <li><a href="courses.html">📚 <span>Courses</span></a></li>
+            <li><a href="examinations.html">🧾 <span>Examinations</span></a></li>
+            <li><a href="results.html">🏆 <span>Results</span></a></li>
+            <li><a href="index.html">🚪 <span>Logout</span></a></li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+
+        <header class="topbar">
+            <h2>Timetable</h2>
+            <div class="user-info">
+                <strong class="user-name">Rohit Chaudhari</strong>
+                <div class="avatar">RC</div>
+            </div>
+        </header>
+
+        <section class="page-content">
+
+            <div class="page-heading">
+                <h1>Class Timetable</h1>
+                <p>Weekly lecture schedule for Semester III.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Weekly Schedule</h3>
+                    <span class="badge badge-info">Semester III</span>
+                </div>
+
+                <div class="table-container">
+                    <table class="timetable">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Monday</th>
+                                <th>Tuesday</th>
+                                <th>Wednesday</th>
+                                <th>Thursday</th>
+                                <th>Friday</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><strong>9:00 - 10:00</strong></td>
+                                <td><div class="subject-box">DBMS</div></td>
+                                <td><div class="subject-box">DS</div></td>
+                                <td><div class="subject-box">Maths</div></td>
+                                <td><div class="subject-box">OOP</div></td>
+                                <td><div class="subject-box">CN</div></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>10:00 - 11:00</strong></td>
+                                <td><div class="subject-box">DS</div></td>
+                                <td><div class="subject-box">OOP</div></td>
+                                <td><div class="subject-box">DBMS</div></td>
+                                <td><div class="subject-box">Maths</div></td>
+                                <td><div class="subject-box">DS</div></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>11:00 - 11:30</strong></td>
+                                <td colspan="5"><div class="break-box">☕ Break</div></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>11:30 - 12:30</strong></td>
+                                <td><div class="subject-box">CN</div></td>
+                                <td><div class="subject-box">DBMS</div></td>
+                                <td><div class="subject-box">OOP</div></td>
+                                <td><div class="subject-box">DS</div></td>
+                                <td><div class="subject-box">Maths</div></td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>12:30 - 1:30</strong></td>
+                                <td><div class="subject-box">OOP Lab</div></td>
+                                <td><div class="subject-box">DBMS Lab</div></td>
+                                <td><div class="subject-box">CN</div></td>
+                                <td><div class="subject-box">DBMS</div></td>
+                                <td><div class="subject-box">Project</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="footer">
+            © <span class="current-year"></span> College ERP Mini System
+        </div>
+
+    </main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

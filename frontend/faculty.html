@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty - College ERP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-layout">
+
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <div class="logo-icon">🎓</div>
+            <span>College ERP</span>
+        </div>
+
+        <ul class="sidebar-menu">
+            <li><a href="dashboard.html">📊 <span>Dashboard</span></a></li>
+            <li><a href="profile.html">👤 <span>Profile</span></a></li>
+            <li><a href="students.html">👨‍🎓 <span>Students</span></a></li>
+            <li><a href="attendance.html">📅 <span>Attendance</span></a></li>
+            <li><a href="marks.html">📝 <span>Marks</span></a></li>
+            <li><a href="timetable.html">🕒 <span>Timetable</span></a></li>
+            <li><a href="notices.html">📢 <span>Notices</span></a></li>
+            <li><a href="faculty.html" class="active">👨‍🏫 <span>Faculty</span></a></li>
+            <li><a href="courses.html">📚 <span>Courses</span></a></li>
+            <li><a href="examinations.html">🧾 <span>Examinations</span></a></li>
+            <li><a href="results.html">🏆 <span>Results</span></a></li>
+            <li><a href="index.html">🚪 <span>Logout</span></a></li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+
+        <header class="topbar">
+            <h2>Faculty</h2>
+            <div class="user-info">
+                <strong class="user-name">Admin Panel</strong>
+                <div class="avatar">A</div>
+            </div>
+        </header>
+
+        <section class="page-content">
+
+            <div class="page-heading">
+                <h1>Faculty Directory</h1>
+                <p>View faculty members and their departments.</p>
+            </div>
+
+            <div class="card">
+
+                <div class="toolbar">
+                    <h3>All Faculty Members</h3>
+                    <input
+                        type="text"
+                        id="searchInput"
+                        class="search-input"
+                        placeholder="Search faculty..."
+                    >
+                </div>
+
+                <div class="table-container">
+                    <table id="dataTable">
+                        <thead>
+                            <tr>
+                                <th>Faculty ID</th>
+                                <th>Name</th>
+                                <th>Department</th>
+                                <th>Designation</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>FAC001</td>
+                                <td>Dr. Amit Kulkarni</td>
+                                <td>AI & Data Science</td>
+                                <td>Head of Department</td>
+                                <td>amit@college.edu</td>
+                            </tr>
+
+                            <tr>
+                                <td>FAC002</td>
+                                <td>Prof. Sneha Patil</td>
+                                <td>Computer Engineering</td>
+                                <td>Assistant Professor</td>
+                                <td>sneha@college.edu</td>
+                            </tr>
+
+                            <tr>
+                                <td>FAC003</td>
+                                <td>Dr. Rajesh Sharma</td>
+                                <td>Mathematics</td>
+                                <td>Associate Professor</td>
+                                <td>rajesh@college.edu</td>
+                            </tr>
+
+                            <tr>
+                                <td>FAC004</td>
+                                <td>Prof. Neha Joshi</td>
+                                <td>Information Technology</td>
+                                <td>Assistant Professor</td>
+                                <td>neha@college.edu</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="footer">
+            © <span class="current-year"></span> College ERP Mini System
+        </div>
+
+    </main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

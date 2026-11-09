@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - College ERP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+            <div class="logo-icon">🎓</div>
+            <span>College ERP</span>
+        </div>
+
+        <ul class="sidebar-menu">
+            <li><a href="dashboard.html" class="active">📊 <span>Dashboard</span></a></li>
+            <li><a href="profile.html">👤 <span>Profile</span></a></li>
+            <li><a href="students.html">👨‍🎓 <span>Students</span></a></li>
+            <li><a href="attendance.html">📅 <span>Attendance</span></a></li>
+            <li><a href="marks.html">📝 <span>Marks</span></a></li>
+            <li><a href="timetable.html">🕒 <span>Timetable</span></a></li>
+            <li><a href="notices.html">📢 <span>Notices</span></a></li>
+            <li><a href="faculty.html">👨‍🏫 <span>Faculty</span></a></li>
+            <li><a href="courses.html">📚 <span>Courses</span></a></li>
+            <li><a href="examinations.html">🧾 <span>Examinations</span></a></li>
+            <li><a href="results.html">🏆 <span>Results</span></a></li>
+            <li><a href="index.html">🚪 <span>Logout</span></a></li>
+        </ul>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <header class="topbar">
+            <h2>Dashboard</h2>
+
+            <div class="user-info">
+                <div>
+                    <strong class="user-name">Rohit Chaudhari</strong><br>
+                    <small>Student</small>
+                </div>
+                <div class="avatar">RC</div>
+            </div>
+        </header>
+
+        <section class="page-content">
+
+            <div class="page-heading">
+                <h1>Good Morning, Rohit! 👋</h1>
+                <p>Here's what's happening with your college today.</p>
+            </div>
+
+            <!-- STAT CARDS -->
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <div>
+                        <p>Total Students</p>
+                        <h3>1,250</h3>
+                        <small>+12% this month</small>
+                    </div>
+                    <div class="stat-icon blue-bg">👨‍🎓</div>
+                </div>
+
+                <div class="stat-card">
+                    <div>
+                        <p>Attendance</p>
+                        <h3>85%</h3>
+                        <small>Good standing</small>
+                    </div>
+                    <div class="stat-icon green-bg">📅</div>
+                </div>
+
+                <div class="stat-card">
+                    <div>
+                        <p>Average Marks</p>
+                        <h3>78%</h3>
+                        <small>Current semester</small>
+                    </div>
+                    <div class="stat-icon orange-bg">📝</div>
+                </div>
+
+                <div class="stat-card">
+                    <div>
+                        <p>Upcoming Exams</p>
+                        <h3>03</h3>
+                        <small>Next 30 days</small>
+                    </div>
+                    <div class="stat-icon purple-bg">🧾</div>
+                </div>
+
+            </div>
+
+            <div class="dashboard-grid">
+
+                <!-- RECENT NOTICES -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>📢 Recent Notices</h3>
+                        <a href="notices.html" class="btn btn-primary">View All</a>
+                    </div>
+
+                    <div class="notice-item">
+                        <h4>Semester Examination Schedule Released</h4>
+                        <p>The examination schedule for the current semester has been published.</p>
+                        <div class="notice-date">📅 10 September 2026</div>
+                    </div>
+
+                    <div class="notice-item">
+                        <h4>College Annual Sports Event</h4>
+                        <p>Students can register for the annual sports event through the college office.</p>
+                        <div class="notice-date">📅 08 September 2026</div>
+                    </div>
+
+                    <div class="notice-item">
+                        <h4>Assignment Submission Reminder</h4>
+                        <p>Submit all pending assignments before the due date.</p>
+                        <div class="notice-date">📅 05 September 2026</div>
+                    </div>
+                </div>
+
+                <!-- QUICK ACTIONS -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>⚡ Quick Actions</h3>
+                    </div>
+
+                    <div class="quick-actions">
+                        <a href="attendance.html" class="quick-action">
+                            <span>📅</span>
+                            Check Attendance
+                        </a>
+
+                        <a href="marks.html" class="quick-action">
+                            <span>📝</span>
+                            View Marks
+                        </a>
+
+                        <a href="timetable.html" class="quick-action">
+                            <span>🕒</span>
+                            View Timetable
+                        </a>
+
+                        <a href="results.html" class="quick-action">
+                            <span>🏆</span>
+                            View Results
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="footer">
+            © <span class="current-year"></span> College ERP Mini System
+        </div>
+
+    </main>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

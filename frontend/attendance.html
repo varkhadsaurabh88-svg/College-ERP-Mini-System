@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance - College ERP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-layout">
+
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <div class="logo-icon">🎓</div>
+            <span>College ERP</span>
+        </div>
+
+        <ul class="sidebar-menu">
+            <li><a href="dashboard.html">📊 <span>Dashboard</span></a></li>
+            <li><a href="profile.html">👤 <span>Profile</span></a></li>
+            <li><a href="students.html">👨‍🎓 <span>Students</span></a></li>
+            <li><a href="attendance.html" class="active">📅 <span>Attendance</span></a></li>
+            <li><a href="marks.html">📝 <span>Marks</span></a></li>
+            <li><a href="timetable.html">🕒 <span>Timetable</span></a></li>
+            <li><a href="notices.html">📢 <span>Notices</span></a></li>
+            <li><a href="faculty.html">👨‍🏫 <span>Faculty</span></a></li>
+            <li><a href="courses.html">📚 <span>Courses</span></a></li>
+            <li><a href="examinations.html">🧾 <span>Examinations</span></a></li>
+            <li><a href="results.html">🏆 <span>Results</span></a></li>
+            <li><a href="index.html">🚪 <span>Logout</span></a></li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+
+        <header class="topbar">
+            <h2>Attendance</h2>
+            <div class="user-info">
+                <strong class="user-name">Rohit Chaudhari</strong>
+                <div class="avatar">RC</div>
+            </div>
+        </header>
+
+        <section class="page-content">
+
+            <div class="page-heading">
+                <h1>Attendance Overview</h1>
+                <p>Track your subject-wise attendance.</p>
+            </div>
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <div>
+                        <p>Overall Attendance</p>
+                        <h3>85%</h3>
+                        <small>Good standing</small>
+                    </div>
+                    <div class="stat-icon green-bg">📅</div>
+                </div>
+
+                <div class="stat-card">
+                    <div>
+                        <p>Total Classes</p>
+                        <h3>120</h3>
+                        <small>This semester</small>
+                    </div>
+                    <div class="stat-icon blue-bg">🏫</div>
+                </div>
+
+                <div class="stat-card">
+                    <div>
+                        <p>Classes Attended</p>
+                        <h3>102</h3>
+                        <small>Present</small>
+                    </div>
+                    <div class="stat-icon purple-bg">✅</div>
+                </div>
+
+                <div class="stat-card">
+                    <div>
+                        <p>Classes Missed</p>
+                        <h3>18</h3>
+                        <small>Absent</small>
+                    </div>
+                    <div class="stat-icon orange-bg">⚠️</div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Subject-wise Attendance</h3>
+                </div>
+
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Subject</th>
+                                <th>Total Classes</th>
+                                <th>Present</th>
+                                <th>Absent</th>
+                                <th>Percentage</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Database Management System</td>
+                                <td>25</td>
+                                <td>23</td>
+                                <td>2</td>
+                                <td>92%</td>
+                                <td><span class="badge badge-success">Good</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Data Structures</td>
+                                <td>25</td>
+                                <td>21</td>
+                                <td>4</td>
+                                <td>84%</td>
+                                <td><span class="badge badge-success">Good</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Mathematics</td>
+                                <td>25</td>
+                                <td>20</td>
+                                <td>5</td>
+                                <td>80%</td>
+                                <td><span class="badge badge-warning">Average</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Object Oriented Programming</td>
+                                <td>25</td>
+                                <td>22</td>
+                                <td>3</td>
+                                <td>88%</td>
+                                <td><span class="badge badge-success">Good</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Computer Networks</td>
+                                <td>20</td>
+                                <td>16</td>
+                                <td>4</td>
+                                <td>80%</td>
+                                <td><span class="badge badge-warning">Average</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="footer">
+            © <span class="current-year"></span> College ERP Mini System
+        </div>
+
+    </main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

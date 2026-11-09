@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students - College ERP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-layout">
+
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <div class="logo-icon">🎓</div>
+            <span>College ERP</span>
+        </div>
+
+        <ul class="sidebar-menu">
+            <li><a href="dashboard.html">📊 <span>Dashboard</span></a></li>
+            <li><a href="profile.html">👤 <span>Profile</span></a></li>
+            <li><a href="students.html" class="active">👨‍🎓 <span>Students</span></a></li>
+            <li><a href="attendance.html">📅 <span>Attendance</span></a></li>
+            <li><a href="marks.html">📝 <span>Marks</span></a></li>
+            <li><a href="timetable.html">🕒 <span>Timetable</span></a></li>
+            <li><a href="notices.html">📢 <span>Notices</span></a></li>
+            <li><a href="faculty.html">👨‍🏫 <span>Faculty</span></a></li>
+            <li><a href="courses.html">📚 <span>Courses</span></a></li>
+            <li><a href="examinations.html">🧾 <span>Examinations</span></a></li>
+            <li><a href="results.html">🏆 <span>Results</span></a></li>
+            <li><a href="index.html">🚪 <span>Logout</span></a></li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+
+        <header class="topbar">
+            <h2>Students</h2>
+            <div class="user-info">
+                <strong class="user-name">Admin Panel</strong>
+                <div class="avatar">A</div>
+            </div>
+        </header>
+
+        <section class="page-content">
+
+            <div class="page-heading">
+                <h1>Student Management</h1>
+                <p>View and manage registered students.</p>
+            </div>
+
+            <div class="card">
+
+                <div class="toolbar">
+                    <h3>All Students</h3>
+                    <input
+                        type="text"
+                        id="searchInput"
+                        class="search-input"
+                        placeholder="Search students..."
+                    >
+                </div>
+
+                <div class="table-container">
+                    <table id="dataTable">
+                        <thead>
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Name</th>
+                                <th>Department</th>
+                                <th>Year</th>
+                                <th>Email</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>STU001</td>
+                                <td>Rohit Nilesh Chaudhari</td>
+                                <td>AI & DS</td>
+                                <td>Second Year</td>
+                                <td>rohit@example.com</td>
+                                <td><span class="badge badge-success">Active</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>STU002</td>
+                                <td>Saurabh vinod varkhad</td>
+                                <td>AI & DS</td>
+                                <td>Second Year</td>
+                                <td>Saurabh@example.com</td>
+                                <td><span class="badge badge-success">Active</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>STU003</td>
+                                <td>Roshan Prafull Pawar</td>
+                                <td>AI & DS</td>
+                                <td>Second Year</td>
+                                <td>Roshan@example.com</td>
+                                <td><span class="badge badge-success">Active</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>STU004</td>
+                                <td>Kaushal C. Bachhav</td>
+                                <td>AI & DS</td>
+                                <td>Second Year</td>
+                                <td>Kaushal@example.com</td>
+                                <td><span class="badge badge-warning">Pending</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="footer">
+            © <span class="current-year"></span> College ERP Mini System
+        </div>
+
+    </main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
